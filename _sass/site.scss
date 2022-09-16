@@ -20,7 +20,7 @@ body {
 	background-position: center center;
 	background-attachment: fixed;
 	@media #{$small} {
-	    // background-image: none !important;
+	    background-image: none !important;
 		background: $white;
 	}
 }
@@ -195,16 +195,7 @@ header .entry-meta {
 .feature {
     @include transition(.5s);
     @media #{$small} {
-        // background-image: none !important;
-        color: white;
-        padding: 1em;
-        margin-left: -6rem;
-        margin-right: -6rem;
-        margin-top: -2rem;
-        border-radius: 1px 1px 0 0;
-        background-color: rgba($black, 0.6);
-        background-blend-mode: multiply;
-        background-position: center center;
+        background-image: none !important;
     }
     @media #{$medium} {
         color: white;
