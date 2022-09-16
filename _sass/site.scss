@@ -196,6 +196,15 @@ header .entry-meta {
     @include transition(.5s);
     @media #{$small} {
         // background-image: none !important;
+        color: white;
+        padding: 0em;
+        margin-left: -6rem;
+        margin-right: -6rem;
+        margin-top: -2rem;
+        border-radius: 3px 3px 0 0;
+        background-color: rgba($black, 0.6);
+        background-blend-mode: multiply;
+        background-position: center center;
     }
     @media #{$medium} {
         color: white;
