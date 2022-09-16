@@ -8,7 +8,7 @@ logo:               'assets/img/kuma_logo.jpg'
 background:         'assets/img/happy.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://lingyue328.github.io/
+url:                https://www.bilibili.com/s/video/BV1fA411c7jT
 
 # Jekyll
 permalink:          /:title/
