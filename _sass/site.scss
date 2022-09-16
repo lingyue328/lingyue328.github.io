@@ -195,7 +195,7 @@ header .entry-meta {
 .feature {
     @include transition(.5s);
     @media #{$small} {
-        background-image: none !important;
+        // background-image: none !important;
     }
     @media #{$medium} {
         color: white;
